@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
     <!-- CSS -->
-    <link rel="stylesheet" href="file:///Users/ioacademy/Documents/cssite/style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>CSSite Home</title>
 </head>
 <body>
@@ -56,18 +57,21 @@
     </table>
 
     <h3 class="audiowide-regular">Rare Case Drop Pool</h3>
-    <table>
-        <tr>
-            <th>Case</th>
-            <th>Drop Chance (%)</th>
-            <th>Steam Market Link</th>
-        </tr>
-        <tr>
-            <td>Rare Case</td>
-            <td>1%</td>
-            <td>NA</td>
-        </tr>
-    </table>
+    <button onclick="toggleRareCase()">Toggle Rare Cases</button>
+    <div class="rare-case-drop">
+        <table>
+            <tr>
+                <th>Case</th>
+                <th>Drop Chance (%)</th>
+                <th>Steam Market Link</th>
+            </tr>
+            <tr>
+                <td>Rare Case</td>
+                <td>1%</td>
+                <td>NA</td>
+            </tr>
+        </table>
+    </div>
 </div>
 </body>
 </html>

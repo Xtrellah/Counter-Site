@@ -42,6 +42,8 @@ a:hover {
     color: var(--background);
 }
 
+
+
 /* TABLE */
 th {
     color: var(--primary);
@@ -68,4 +70,12 @@ tr:nth-child(odd) {
 
 tr:nth-child(even) {
     background-color: var(--primary);
+}
+
+/* RARE CASE DROP POOL */
+.rare-case-drop {
+    display: none;
+}
+.rare-case-drop.visible {
+    display: block;
 }
