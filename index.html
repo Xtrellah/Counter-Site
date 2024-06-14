@@ -14,8 +14,10 @@
 </head>
 <body>
 <div class="container">
+
     <h1 class="audiowide-regular">CSSite Home</h1>
     <p>Some general info about Counter-Strike 2</p>
+
     <h3 class="audiowide-regular">Current Case Drop Pool</h3>
     <p>Drop rate (%) statistics are approximate and based on 1000s of accounts.</p>
     <table>
@@ -56,9 +58,9 @@
         </tr>
     </table>
 
-    <h3 class="audiowide-regular">Rare Case Drop Pool</h3>
     <button onclick="toggleRareCase()">Toggle Rare Cases</button>
     <div class="rare-case-drop">
+    <h3 class="audiowide-regular">Rare Case Drop Pool</h3>        
         <table>
             <tr>
                 <th>Case</th>
@@ -72,6 +74,25 @@
             </tr>
         </table>
     </div>
+
+    <button onclick="toggleDiscontinuedCase()">Toggle Discontinued Cases</button>
+    <div class="discontinued-cases">
+    <h3 class="audiowide-regular">Discontinued Cases</h3>        
+        <table>
+            <tr>
+                <th>Case</th>
+                <th>Drop Chance (%)</th>
+                <th>Steam Market Link</th>
+            </tr>
+            <tr>
+                <td>Discontinued Case</td>
+                <td>0%</td>
+                <td>NA</td>
+            </tr>
+        </table>
+    </div>
+
+
 </div>
 </body>
 </html>

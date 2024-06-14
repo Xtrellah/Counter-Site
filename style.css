@@ -72,10 +72,20 @@ tr:nth-child(even) {
     background-color: var(--primary);
 }
 
-/* RARE CASE DROP POOL */
+
+/* RARE CASE DROP POOL TOGGLE */
 .rare-case-drop {
     display: none;
 }
 .rare-case-drop.visible {
+    display: block;
+}
+
+
+/* DISCONTINUED CASE DROP POOL TOGGLE */
+.discontinued-cases {
+    display: none;
+}
+.discontinued-cases.visible {
     display: block;
 }
