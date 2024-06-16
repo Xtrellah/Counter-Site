@@ -1,0 +1,10 @@
+.placeholder {
+    display: flex;
+    align-items: center;
+
+}
+
+.imageBorder {
+    border-style: ridge;
+    border-color: var(--primary);
+}
