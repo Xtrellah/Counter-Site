@@ -1,9 +1,0 @@
-.placeholder {
-    display: flex;
-
-}
-
-.imageBorder {
-    border-style: ridge;
-    border-color: var(--primary);
-}
