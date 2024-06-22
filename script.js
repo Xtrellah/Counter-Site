@@ -20,9 +20,11 @@ fetch('blog.json').then(function (res) {
             target.innerHTML += `
             <div>
                 <img src="${blog.image}" />
-                <h2>${blog.title}</h2>
-                <p>${blog.desc}</p>
-                <a href="${blog.link}">Check it out on GitHub!</a>
+                <div>
+                    <h2>${blog.title}</h2>
+                    <h4>${blog.date}</h4>
+                    <p>${blog.desc}</p>
+                </div>
             </div>
         `
     })

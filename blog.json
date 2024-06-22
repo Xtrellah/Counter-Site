@@ -3,15 +3,15 @@
       {
         "image": "https://www.betus.com.pa/wp-content/uploads/2024/06/g2-conquer-iem-dallas-over-vitality-06-03-2024.webp",
         "title": "GStew wins IEM Dallas",
-        "desc": "g2 win iem dallas 2024",
-        "link": "https://github.com/Xtrellah/CSSite"
+        "date" : "02/06/2024",
+        "desc": "g2 win iem dallas 2024"
       },
       
       {
         "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
         "title": "Update",
-        "desc": "something",
-        "link": "https://github.com/Xtrellah/CSSite"
+        "date" : "00/00/2024",
+        "desc": "something"
       }
     ]
   }

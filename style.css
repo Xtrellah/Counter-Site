@@ -55,20 +55,22 @@ body {
 p {
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-}
-h1 {
+} h1 {
     color: var(--primary);
-}
-h2 {
+} h2 {
     color: #ffffff;
 
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
 
-}
-h3 {
+} h3 {
     color: var(--primary);
+} h4 {
+    color: #ffffff;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* LINKS */
@@ -137,36 +139,34 @@ button:hover {
 
 
 /* NEWS */
-.news {
-    padding-bottom: 50px;
+.news-section{
+    padding: 0px 50px 50px 50px;
 }
 .target {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 25px;
 }
 .target div {
-    align-items: center;
-    align-content: center;
-    border-style: ridge;
-    border-color: grey;
+    display: table;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: var(--primary);
     background-color: var(--background);
-    width: 300px;
-    height: auto;
+    width: 100%;
+    height: inherit;
 }
 .target div img{
-    align-items: center;
-    align-content: center;
-    border-style: none;
-    border-color: grey;
-    background-color: white;
-    width: 300px;
-    height: auto;
+    width: inherit;
+    border-radius: inherit;
+    
 }
-.target a {
-    color: var(--primary);
-    text-decoration: none;
-}.target a:hover {
-    color: var(--secondary);
+.target div div {
+    padding: 0px 25px 25px 25px;
+    width: auto;
+    border: none;
+
 }
+
