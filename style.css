@@ -170,3 +170,11 @@ button:hover {
 
 }
 
+
+
+/* COMMANDS */
+.command-snippet {
+    border-style: solid;
+    border-color: var(--secondary);
+    padding: 25px;
+}

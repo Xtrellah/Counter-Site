@@ -29,3 +29,22 @@ fetch('blog.json').then(function (res) {
         `
     })
 })
+
+
+
+fetch('commands.json').then(function (res) {
+    return res.json()
+}).then(function(data) {
+    
+    const target = document.querySelector('.coms-target')
+    
+    data.table.forEach(function (table){
+            console.log(table.name)
+            target.innerHTML += `
+            <tr>
+                <td>${table.command}</td>
+                <td>${table.description}</td>
+            </tr>
+        `
+    })
+})
