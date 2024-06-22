@@ -7,12 +7,15 @@
 
 .container {
     width: 100%;
+    height: 100%;
     max-width: 800px;
     margin: 0px auto;
+    padding: 50px;
+    background-color: var(--background);
 }
 
 body {
-    background-color: var(--background);
+    background-color: rgb(170, 170, 170);
 }
 
 /* NAVBAR */
@@ -25,20 +28,17 @@ body {
     background-color: var(--background);
     border-style: ridge;
     border-color: var(--primary);
-}
-li {
+} li {
     float: left;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-}
-li a {
+} li a {
     display: block;
     color: var(--primary);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-li a:hover:not(.active) {
+} li a:hover:not(.active) {
     background-color: var(--primary);
     color: var(--background);
 }
@@ -59,6 +59,14 @@ p {
 h1 {
     color: var(--primary);
 }
+h2 {
+    color: #ffffff;
+
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
 h3 {
     color: var(--primary);
 }
@@ -72,33 +80,24 @@ a:hover {
 }
 
 
-/* TABLE */
+/* TABLE */ 
 th {
     color: var(--primary);
     background-color: var(--background);
-}
-td {
+} td {
     color: var(--background);
-}
-table, th, td {
+} table, th, td {
   font-family: Arial, Helvetica, sans-serif;
-}
-table {
+} table {
     width: 100%;
     border-style: ridge;
     border-color: var(--primary);
-}
-
-th, td {
+} th, td {
     padding: 10px;
     text-align: left;
-}
-
-tr:nth-child(odd) {
+} tr:nth-child(odd) {
     background-color: var(--secondary);
-}
-
-tr:nth-child(even) {
+} tr:nth-child(even) {
     background-color: var(--primary);
 }
 
@@ -136,3 +135,38 @@ button:hover {
     background: var(--primary);
 }
 
+
+/* NEWS */
+.news {
+    padding-bottom: 50px;
+}
+.target {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.target div {
+    align-items: center;
+    align-content: center;
+    border-style: ridge;
+    border-color: grey;
+    background-color: var(--background);
+    width: 300px;
+    height: auto;
+}
+.target div img{
+    align-items: center;
+    align-content: center;
+    border-style: none;
+    border-color: grey;
+    background-color: white;
+    width: 300px;
+    height: auto;
+}
+.target a {
+    color: var(--primary);
+    text-decoration: none;
+}.target a:hover {
+    color: var(--secondary);
+}
