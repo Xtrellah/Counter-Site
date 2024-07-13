@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: rgb(170, 170, 170);
+  background-color: var(--background);
 }
 
 /* NAVBAR */
