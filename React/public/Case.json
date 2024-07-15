@@ -1,0 +1,34 @@
+{
+    "current": [
+      {
+        "name": "Killowat Case",
+        "chance": "18-22%",
+        "price": "https://steamcommunity.com/market/listings/730/Kilowatt%20Case"
+      },
+      {
+        "name": "Fracture Case",
+        "chance": "18-22%",
+        "price": "https://steamcommunity.com/market/listings/730/Fracture%20Case"
+      },
+      {
+        "name": "Revolution Case",
+        "chance": "18-22%",
+        "price": "https://steamcommunity.com/market/listings/730/Revolution%20Case"
+      },
+      {
+        "name": "Recoil Case",
+        "chance": "18-22%",
+        "price": "https://steamcommunity.com/market/listings/730/Recoil"
+      },
+      {
+        "name": "Dreams & Nightmares Case",
+        "chance": "18-22%",
+        "price": "https://steamcommunity.com/market/listings/730/Dreams%20%26%20Nightmares%20Case"
+      },
+      {
+        "name": "Rare Case",
+        "chance": "1%",
+        "price": "NA"
+      }
+      ]
+}
