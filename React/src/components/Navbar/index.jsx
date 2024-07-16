@@ -3,10 +3,10 @@ export default function Navbar() {
 
     return (
         <ul className="navbar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="commands.html">Commands</a></li>
-            <li><a href="placeholder.html">Login</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/News">News</a></li>
+            <li><a href="/commands">Commands</a></li>
+            <li><a href="/Placeholder">Login</a></li>
         </ul>
     )
 }
