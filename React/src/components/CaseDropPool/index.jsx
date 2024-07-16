@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'
 
 export default function CaseDropPool() {
 
-    const [cases, setCases] = useState([]);
-    const [name, setName] = useState('');
+    const [cases, setCases] = useState([])
+    const [name, setName] = useState('')
 
-    useEffect(() => { getData(); }, []);
+    useEffect(() => { getData(); }, [])
 
     function getData() {
         fetch('/Case.json')
