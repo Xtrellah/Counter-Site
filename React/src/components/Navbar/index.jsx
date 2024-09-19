@@ -7,6 +7,7 @@ export default function Navbar() {
             <li><a href="/News">News</a></li>
             <li><a href="/commands">Commands</a></li>
             <li><a href="/Placeholder">Login</a></li>
+            <li><a href="/feed">Feed</a></li>
         </ul>
     )
 }
