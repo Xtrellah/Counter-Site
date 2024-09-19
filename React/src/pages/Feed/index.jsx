@@ -6,7 +6,13 @@ export default function Feed() {
         <div>
             <h1 className="audiowide-regular">Feed</h1>
             <p>Updates and News</p>
-            <Blog />
+
+            <section class="news-section">
+                <div class="news-main">
+                    <Blog />
+                </div>
+            </section>
+            
         </div>
     )
 }

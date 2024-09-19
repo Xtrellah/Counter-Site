@@ -142,35 +142,31 @@ button:hover {
 .news-section{
   padding: 0px 50px 50px 50px;
 }
-.target {
+.news-main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
 }
-.target div {
+.news-div {
   display: table;
   border-style: solid;
   border-radius: 25px;
   border-color: var(--primary);
   background-color: var(--background);
-  width: 100%;
+  width: 50%;
   height: inherit;
 }
-.target div img{
-  width: inherit;
+.news-img{
+  width: 100%;
   border-radius: inherit;
-  
 }
-.target div div {
+.news-content {
   padding: 0px 25px 25px 25px;
   width: auto;
   border: none;
-
 }
-
-
 
 /* COMMANDS */
 .command-snippet {

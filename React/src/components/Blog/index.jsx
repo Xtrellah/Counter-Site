@@ -27,9 +27,9 @@ export default function Blog() {
             <p>News from the CS2 Community.</p>
             <div>
                 {blog.map((blogItem, index) => (
-                            <div key={index}>
-                                <img src={blogItem.image} />
-                                <div>
+                            <div className="news-div" key={index}>
+                                <img className="news-img" src={blogItem.image} />
+                                <div className="news-content">
                                     <h2>{blogItem.title}</h2>
                                     <h4>{blogItem.date}</h4>
                                     <p>{blogItem.desc}</p>
