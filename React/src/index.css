@@ -19,7 +19,7 @@ body {
 }
 
 /* NAVBAR */
-.navbar {
+/* .navbar {
   display: block;
   list-style-type: none;
   margin: 0;
@@ -41,7 +41,7 @@ body {
 } li a:hover:not(.active) {
   background-color: var(--primary);
   color: var(--background);
-}
+} */
 
 
 /* FONT */
