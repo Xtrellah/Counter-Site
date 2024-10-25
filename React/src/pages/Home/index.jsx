@@ -5,9 +5,9 @@ export default function Home() {
 
     return (
         <div>
-            <h2 className="audiowide-regular">Welcome to Counter-Site</h2>
-            <h4>The one-stop shop for all your CS2 related needs!</h4>
-            <Inventory />
+            <h2 className="audiowide-regular">Welcome to Counter-Site | The one-stop shop for all your CS related needs!</h2>
+            <h3 className="audiowide-regular">Checkout some features of the site:</h3>
+            <a href="/inventory"><h1 className="audiowide-regular">Inventory Viewer</h1></a>
             <CaseDropPool />
         </div>
     )

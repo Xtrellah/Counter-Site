@@ -1,6 +1,6 @@
 import Blog from "../../components/Blog";
 
-export default function Feed() {
+export default function News() {
 
     return (
         <div>

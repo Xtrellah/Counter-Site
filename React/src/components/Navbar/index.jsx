@@ -29,10 +29,9 @@ export default function Navbar() {
     return (
         <ul className="navbar" id="navbar">
             <li><a href="/">Home</a></li>
+            <li><a href="/Commands">Commands</a></li>
             <li><a href="/News">News</a></li>
-            <li><a href="/commands">Commands</a></li>
             <li><a href="/Placeholder">Login</a></li>
-            <li><a href="/Feed">Feed</a></li>
         </ul>
     );
 }
