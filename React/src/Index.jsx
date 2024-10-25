@@ -4,12 +4,15 @@ import Navbar from "./components/Navbar";
 import Placeholder from "./pages/Placeholder";
 import Commands from "./pages/Commands";
 import Feed from "./pages/Feed";
+import Banner from "./components/Banner";
 
 
 export default function Index() {
 
   return (
+    
     <BrowserRouter>
+      <Banner/>
       <Navbar/>
 
       <Routes>
