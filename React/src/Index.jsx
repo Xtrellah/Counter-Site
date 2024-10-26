@@ -6,6 +6,7 @@ import Commands from "./pages/Commands";
 import Banner from "./components/Banner";
 import News from "./pages/News";
 import InventoryViewer from "./pages/InventoryViewer";
+import DropPool from "./pages/DropPool";
 
 
 export default function Index() {
@@ -22,6 +23,7 @@ export default function Index() {
         <Route path="/commands" element={<Commands />} />
         <Route path="/news" element={<News />} />
         <Route path="/inventory" element={<InventoryViewer />} />
+        <Route path="/droppool" element={<DropPool />} />
       </Routes>
 
     </BrowserRouter>

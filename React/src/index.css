@@ -83,7 +83,7 @@ a:hover {
 
 
 /* TABLE */ 
-th {
+/* th {
   color: var(--primary);
   background-color: var(--background);
 } td {
@@ -101,7 +101,7 @@ font-family: Arial, Helvetica, sans-serif;
   background-color: var(--secondary);
 } tr:nth-child(even) {
   background-color: var(--primary);
-}
+} */
 
 
 /* RARE CASE DROP POOL TOGGLE */
