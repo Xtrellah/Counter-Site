@@ -1,35 +1,34 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 
-export default function CaseDropPool() {
+export default function CaseDropPool({ caseType = 'current' }) {
+    const [cases, setCases] = useState([]);
+    const [name, setName] = useState('');
 
-    const [cases, setCases] = useState([])
-    const [name, setName] = useState('')
-
-    useEffect(() => { getData(); }, [])
+    useEffect(() => { getData(); }, [caseType]);
 
     function getData() {
-        fetch('/Case.json')
+        fetch('/case.json')
             .then(res => res.json())
             .then(data => {
-                const currentCases = data.current
-                setCases(currentCases)
-                if (currentCases.length > 0) {
-                    setName(currentCases[0].name)
+                const selectedCases = data[caseType];
+                setCases(selectedCases);
+                if (selectedCases.length > 0) {
+                    setName(`${caseType.charAt(0).toUpperCase() + caseType.slice(1)} Case Drop Pool`);
                 }
-                console.log(currentCases)
+                console.log(selectedCases);
             })
-            .catch(error => console.error('Error fetching data:', error))
+            .catch(error => console.error('Error fetching data:', error));
     }
 
     return (
         <div>
-            <h3 className="audiowide-regular">Current Case Drop Pool</h3>
+            <h3 className="audiowide-regular">{name}</h3>
             <p>Drop rate (%) statistics are approximate and based on historical data.</p>
             <table>
                 <thead>
                     <tr>
-                        <th>Name</th>
-                        <th>Chance</th>
+                        <th>Case</th>
+                        <th>Drop Chance (%)</th>
                         <th>Price</th>
                     </tr>
                 </thead>
@@ -44,6 +43,5 @@ export default function CaseDropPool() {
                 </tbody>
             </table>
         </div>
-
-    )
+    );
 }
