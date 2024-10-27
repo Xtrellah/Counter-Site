@@ -3,7 +3,7 @@ table, th, td {
 }
 
 table {
-    width: 80%;
+    width: 100%;
     border-style: solid;
     border-color: var(--primary);
     border-collapse: collapse;
