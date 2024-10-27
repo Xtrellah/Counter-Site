@@ -22,9 +22,10 @@ export default function Commands() {
     }
 
     return (
-        <div>
+        <div className="main">
+            <h1 className="audiowide-regular">Commands</h1>
             <h3 className="audiowide-regular">Flying Scountsman</h3>
-            <p>Coms for flyign scoutsman</p>
+            <p>Coms for flying scoutsman</p>
             <table>
                 <thead>
                     <tr>

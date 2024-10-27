@@ -1,0 +1,15 @@
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+    border: 1px solid var(--primary);
+    padding: 10px;
+    border-radius: 8px;
+    width: 80;
+    text-align: center;
+}
+
+.featured h1:hover {
+    color: var(--secondary);
+}

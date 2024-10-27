@@ -3,7 +3,7 @@ import './style.css'
 export default function Placeholder() {
 
     return (
-        <div>
+        <div className="main">
             <h1 className="audiowide-regular">Oops...</h1>
 
             <div className="placeholder">

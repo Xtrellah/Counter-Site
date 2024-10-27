@@ -3,9 +3,9 @@ import Blog from "../../components/Blog";
 export default function News() {
 
     return (
-        <div>
-            <h1 className="audiowide-regular">Feed</h1>
-            <p>Updates and News</p>
+        <div className="main">
+            <h1 className="audiowide-regular">News</h1>
+            <h4>Updates and News from the Counter-Strike community</h4>
 
             <section class="news-section">
                 <div class="news-main">

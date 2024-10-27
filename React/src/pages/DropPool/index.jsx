@@ -10,7 +10,7 @@ export default function DropPool() {
     };
 
     return (
-        <div>
+        <div className="main">
             <h1 className="audiowide-regular">Drop Pool</h1>
             <h2 className="audiowide-regular">Checkout the current drop pool available</h2>
 
