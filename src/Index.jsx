@@ -7,12 +7,12 @@ import Banner from "./components/Banner";
 import News from "./pages/News";
 import InventoryViewer from "./pages/InventoryViewer";
 import DropPool from "./pages/DropPool";
+import Footer from "./components/Footer";
 
 
 export default function Index() {
 
   return (
-    
     <BrowserRouter>
       <Banner/>
       <Navbar/>
@@ -26,6 +26,7 @@ export default function Index() {
         <Route path="/droppool" element={<DropPool />} />
       </Routes>
 
+      <Footer />
     </BrowserRouter>
   )
 }
