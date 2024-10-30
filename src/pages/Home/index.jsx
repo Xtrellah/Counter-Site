@@ -10,6 +10,7 @@ export default function Home() {
             <div className="featured">
                 <a href="/inventory"><h1 className="audiowide-regular">Inventory Viewer</h1></a>
                 <a href="/droppool"><h1 className="audiowide-regular">Drop Pool</h1></a>
+                <a href="/collection"><h1 className="audiowide-regular">Collection Viewer</h1></a>
             </div>
         </div>
     )
