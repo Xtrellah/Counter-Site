@@ -16,7 +16,6 @@ export default function Navbar() {
 
         links.forEach(link => {
             const hrefPath = link.getAttribute('href').split("/").pop();
-            console.log('LOOK HERE' + hrefPath)
 
             if (hrefPath === currentPath) {
                 link.classList.add('active');

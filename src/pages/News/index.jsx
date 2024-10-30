@@ -7,8 +7,8 @@ export default function News() {
             <h1 className="audiowide-regular">News</h1>
             <h4>Updates and News from the Counter-Strike community</h4>
 
-            <section class="news-section">
-                <div class="news-main">
+            <section className="news-section">
+                <div className="news-main">
                     <Blog />
                 </div>
             </section>
