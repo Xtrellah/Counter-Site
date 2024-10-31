@@ -1,14 +1,14 @@
 import './style.css';
 import React, { useState, useEffect } from 'react';
 
-export default function Collection() {
+export default function Collection({ collectionRoute }) {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://localhost/php-storm/Counter-Site-Backend/src/collection.php');
+        const response = await fetch(`http://localhost:8000/${collectionRoute}`);
         const data = await response.json();
         console.log("API response:", data);
 
@@ -21,7 +21,7 @@ export default function Collection() {
     };
 
     fetchData();
-  }, []);
+  }, [collectionRoute]);
 
   if (loading) return <p>Loading...</p>;
 
@@ -40,4 +40,3 @@ export default function Collection() {
     </div>
   );
 }
-
