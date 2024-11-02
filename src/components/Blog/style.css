@@ -1,0 +1,32 @@
+.news-section {
+    padding: 0px 50px 50px 50px;
+}
+
+.news-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.news-div {
+    display: table;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: var(--primary);
+    background-color: var(--background);
+    width: 50%;
+    height: inherit;
+}
+
+.news-img {
+    width: 100%;
+    border-radius: inherit;
+}
+
+.news-content {
+    padding: 0px 25px 25px 25px;
+    width: auto;
+    border: none;
+}

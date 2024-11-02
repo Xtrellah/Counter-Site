@@ -1,11 +1,3 @@
-:root {
-    --primary: #EDBA00;
-    --background: #333333;
-    --steam-grey: #c5c3c0;
-    --steam-white: #ffffff;
-}
-
-/* NAVBAR */
 .navbar {
     display: block;
     list-style-type: none;
