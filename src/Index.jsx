@@ -15,7 +15,6 @@ export default function Index() {
 
   return (
     <BrowserRouter>
-      <Banner/>
       <Navbar/>
 
       <Routes>

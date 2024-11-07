@@ -1,13 +1,16 @@
+.footer-component {
+    background-color: var(--secondary-background);
+    border-width: 5px 0px 0px 0px;
+    border-style: solid;
+    border-color: var(--primary);
+}
+
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    background-color: var(--light-grey);
-    color: var(--white);
-
     margin: 0px 50px 0px 50px;
-    padding: 50px 0px 0px 0px;
+    padding: 25px 0px 0px 0px;
 }
 
 .footer-body {

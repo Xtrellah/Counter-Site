@@ -1,6 +1,7 @@
 import './style.css';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import Banner from '../Banner';
 
 export default function Navbar() {
 
@@ -26,11 +27,16 @@ export default function Navbar() {
     }, [location]);
 
     return (
-        <ul className="navbar" id="navbar">
-            <li><a href="/">Home</a></li>
-            <li><a href="/Commands">Commands</a></li>
-            <li><a href="/News">News</a></li>
-            <li><a href="/Placeholder">Login</a></li>
-        </ul>
+        <div className='navbar-component'>
+            <Banner />
+            <ul className="navbar" id="navbar">
+                <li><a href="/">Home</a></li>
+                <li><a href="/Inventory">Inventory</a></li>
+                <li><a href="/Collection">Collection</a></li>
+                <li><a href="/Commands">Commands</a></li>
+                <li><a href="/News">News</a></li>
+                {/* <li><a href="/Placeholder">Login</a></li> */}
+            </ul>
+        </div>
     );
 }

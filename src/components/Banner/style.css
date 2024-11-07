@@ -1,6 +1,7 @@
 .banner {
     display: flex;
     align-items: center;
+    background-color: var(--secondary-background);
 }
 
 .banner h1 {

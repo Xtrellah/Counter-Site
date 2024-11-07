@@ -2,18 +2,20 @@
   --primary: #EDBA00;
   --secondary: #c59b00;
   --background: #333333;
+  --secondary-background: #222222;
   --steam-grey: #c5c3c0;
   --steam-white: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  margin: 0;
 }
 
 .main {
   min-height: 800px;
   margin: 0% 10% 0% 10%;
   padding: 0px;
-  background-color: var(--background);
-}
-
-body {
   background-color: var(--background);
 }
 
@@ -36,11 +38,9 @@ h1 {
 
 h2 {
   color: #ffffff;
-
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
   font-style: normal;
-
 }
 
 h3 {

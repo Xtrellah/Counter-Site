@@ -8,7 +8,7 @@ export default function Footer() {
     }
 
     return (
-        <div>
+        <div className='footer-component'>
             <footer>
                 <div className="footer-header">
                     <Banner />
