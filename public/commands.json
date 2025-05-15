@@ -1,5 +1,8 @@
-{
-    "table": [
+[
+  {
+    "name": "Flying Scoutsman",
+    "description": "Flying Scoutsman is a gamemode with increased gravity, accuracy and only the SSG 08 and knife equipped.",
+    "commands": [
       {
         "command": "sv_cheats '1'",
         "description": "Turns sv cheats"
@@ -10,7 +13,7 @@
       },
       {
         "command": "mp_afterroundmoney 60",
-        "description": ""
+        "description": "Sets money to $60 after each round"
       },
       {
         "command": "mp_afterroundmoney 16000",
@@ -22,15 +25,34 @@
       },
       {
         "command": "weapon_accuracy_nospread '1'",
-        "description": ""
+        "description": "Increases accuracy"
       },
       {
         "command": "weapon_debug_spread_gap '1'",
-        "description": ""
+        "description": "Movement does not effect accuracy"
       },
       {
         "command": "sv_accelerate 20",
         "description": "Increases exeleration"
       }
     ]
+  },
+  {
+    "name": "",
+    "description": "",
+    "commands": [
+      {
+        "command": "",
+        "description": ""
+      },
+      {
+        "command": "",
+        "description": ""
+      },
+      {
+        "command": "",
+        "description": ""
+      }
+    ]
   }
+]
