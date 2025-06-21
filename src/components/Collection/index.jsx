@@ -8,11 +8,11 @@ export default function Collection({ collectionRoute }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:8000/${collectionRoute}`);
+        const response = await fetch(`http://127.0.0.1:8000/market/getCollectionData/${collectionRoute}`);
         const data = await response.json();
         console.log("API response:", data);
 
-        setItems(data.results || []);
+        setItems(data || []);
       } catch (error) {
         console.error("Error fetching data:", error);
       } finally {
@@ -29,10 +29,7 @@ export default function Collection({ collectionRoute }) {
     <div className="collection-container">
       {items.map((item, index) => (
         <div key={index} className="collection-item">
-          <img
-            src={`https://steamcommunity-a.akamaihd.net/economy/image/${item.asset_description.icon_url}`}
-            alt={item.name}
-          />
+          <img src={item.image} alt={item.name}/>
           <h4>{item.name}</h4>
           <p>{item.sell_listings} listings starting at {item.sell_price_text}</p>
         </div>
