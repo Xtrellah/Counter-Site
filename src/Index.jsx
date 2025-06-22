@@ -7,7 +7,8 @@ import News from "./pages/News";
 import InventoryViewer from "./pages/InventoryViewer";
 import DropPool from "./pages/DropPool";
 import Footer from "./components/Footer";
-import CollectionPage from "./pages/CollectionPage";
+import CollectionsPage from "./pages/CollectionPage";
+import ItemPage from "./pages/ItemPage";
 
 
 export default function Index() {
@@ -23,7 +24,8 @@ export default function Index() {
         <Route path="/news" element={<News />} />
         <Route path="/inventory" element={<InventoryViewer />} />
         <Route path="/droppool" element={<DropPool />} />
-        <Route path="/collection" element={<CollectionPage />} />
+        <Route path="/collection" element={<CollectionsPage />} />
+        <Route path="/collection/:slug" element={<ItemPage />} />
       </Routes>
 
       <Footer />

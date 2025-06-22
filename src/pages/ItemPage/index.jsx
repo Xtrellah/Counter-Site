@@ -2,14 +2,12 @@ import './style.css';
 import CollectionMenu from "../../components/CollectionMenu";
 import CollectionSelect from "../../components/CollectionSelect";
 
-export default function CollectionPage() {
+export default function CollectionsPage() {
 
   return (
     <div className="main">
 
-      <h1 className="audiowide-regular">Collections</h1>
-
-      <CollectionMenu />
+      <CollectionSelect />
 
     </div>
   );

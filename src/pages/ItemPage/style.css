@@ -1,0 +1,27 @@
+.collection-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+    border: 1px solid var(--primary);
+    padding: 10px;
+    border-radius: 8px;
+    width: 80;
+    text-align: center;
+    list-style-type: none;
+}
+
+.collection-list li {
+    color: var(--primary);
+    cursor: pointer;
+    padding: 8px;
+    font-weight: 400;
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+}
+
+.collection-list .selected {
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
